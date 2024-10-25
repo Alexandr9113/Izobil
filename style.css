@@ -23,7 +23,6 @@ body {
     justify-content: center;
     align-items: center;
     width: 1920px;
-    
     background: url(assets/png/header.png) repeat-x top center;
 }
 
@@ -261,4 +260,151 @@ footer {
     width: 9999px;
     height: 90px;
     background: url(assets/png/footer_bottom.png) repeat-x top center;
+}
+
+/* design for bird page */
+
+h2 {
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 39px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.bird {
+    display: flex;
+    justify-content: center;
+    gap: 84px;
+    margin-bottom: 180px;
+}
+
+.bird img {
+    width: 380px;
+    height: 548px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid #fff;
+}
+
+th, td {
+    font-size: 24px;
+    color: #000;
+    text-align: left;
+    padding: 25px;
+    border: 2px solid #FABB63;
+}
+
+th {
+    font-weight: 500;
+}
+
+.bird-description {
+    display: flex;
+    gap: 90px;
+    margin-bottom: 180px;
+}
+
+.bird-description h3 {
+    text-align: left;
+    font-weight: 500;
+    margin: 0;
+}
+
+.small-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.specific {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.specific img {
+    position: absolute;
+    right: 100px;
+    top: -35px;
+}
+
+.specific-title {
+    font-weight: 400;
+    font-size: 64px;
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.specific-txt {
+    display: flex;
+    gap: 50px;
+}
+
+.specific-txt p {
+    width: 50%;
+}
+
+.swiper-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.swiper-slide img {
+    margin: 0 10px;
+    width: 25%;
+    object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: auto !important;
+}
+
+.mySwiper .swiper-button-next::after,
+.mySwiper .swiper-button-prev::after {
+    color: #FABB63;
+    font-size: 120px;
+    width: auto;
+}
+
+.feed-and-feeders {
+    text-align: center;
+    width: 100%;
+    background-color: #FFD000;
+    color: #fff;
+    border-radius: 15px;
+    margin-bottom: 180px;
+}
+
+.feed-and-feeders p {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 35px;
+}
+
+.feed-and-feeders a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
 }
